@@ -6,3 +6,10 @@
 
     *HINT* - MDN Web Docs are a good resource
 */
+
+
+console.log(typeof 42); // number   
+console.log(typeof "mayur"); // string
+console.log(typeof true); // Boolean    
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object

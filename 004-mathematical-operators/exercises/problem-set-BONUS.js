@@ -8,3 +8,15 @@
 */
 
 // string concatenation
+
+
+let animals = "dog";
+animals += " says woof"
+console.log(animals);
+
+let hello = "dog" + 15;
+console.log(hello);
+
+
+let bull = true + true;
+console.log(bull);

@@ -9,3 +9,14 @@
     5. Print out 6 % 2
     6. Print out 6 ** 2
 */
+
+
+console.log(5 / 2); 
+
+console.log(5 % 2);
+
+console.log(5 ** 2);
+
+console.log(6 / 2);
+console.log(6 % 2);
+console.log(6 ** 2);

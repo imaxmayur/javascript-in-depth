@@ -8,3 +8,18 @@
     7. At the end of the program print out: "--- Animal check complete ---"
     8. Change animal to different values to make sure it works in all cases
 */
+
+console.log("-- Animals checker complete --")
+
+
+const animal = "dog";
+if (animal === "cat") {
+    console.log("Meow!");
+} else if (animal === "dog") {
+    console.log("Woof!");
+} else {
+    console.log("Must be alien");
+}
+
+
+console.log("-- Animals checker complete --")

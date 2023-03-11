@@ -10,3 +10,26 @@
     HINT: AND and OR will have 4 possibilities, while NOT has 2
     HINT2: console.log(true && true)
 */
+
+
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+
+console.log("---------");
+
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+
+console.log("---------");
+
+
+console.log(!true);
+console.log(!false);
+

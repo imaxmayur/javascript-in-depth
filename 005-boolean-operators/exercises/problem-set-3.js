@@ -10,3 +10,12 @@
     try to see if you can see WHY it works that way. This will come in
     very handy in the future.
 */
+
+
+true && console.log("moo"); // moo
+
+false && console.log("Moo Moo?"); 
+
+true || console.log("hello friend"); 
+
+false || console.log("bye friend"); // bye friend

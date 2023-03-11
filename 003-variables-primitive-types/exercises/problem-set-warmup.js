@@ -13,3 +13,20 @@
 
    HINT2: Make sure your terminal is "looking at" the correct folder where your code is
 */
+
+const name = "Max payne";
+console.log(name);
+
+const Number = 69;
+console.log(Number);
+
+const variable = true;
+console.log(variable);
+
+const variable1 = null;
+console.log(variable1);
+
+const variable2 = undefined;
+console.log(variable2);
+
+

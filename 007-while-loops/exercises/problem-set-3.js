@@ -1,5 +1,5 @@
 /*
-    1. Create a for loop that runs from 1-100 
+    1. Create a while loop that runs from 1-100 
     2. Every 10 loops, print out: Checkpoint! and the loop number
     3. On loop 50 print out ONLY: Half way there!
     4. On the final loop (100) print out ONLY: You made it!
@@ -18,3 +18,27 @@
     You made it!
     All, done!
 */
+
+
+let count = 1;
+
+while (count <= 100){
+    if (count === 50){
+        console.log("Half way there!");
+        count++;
+        continue;
+    }
+
+    if (count === 100){
+        console.log("You made it!");
+        count++;
+        continue;
+    }
+
+    if (count % 10 === 0){
+        console.log(`Checkpoint ${count}`);
+        count++;
+    }
+}
+
+console.log("All, done!")

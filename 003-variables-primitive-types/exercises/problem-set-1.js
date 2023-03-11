@@ -6,3 +6,18 @@
 
     After each of the above steps, log out the variable to the terminal with console.log.
 */
+
+let name = "Mayur";
+console.log(name);
+
+
+name = "Sonu Nigam";
+console.log(name);
+
+name = true;
+console.log(name)
+
+name = 42;
+
+
+console.log(name);
