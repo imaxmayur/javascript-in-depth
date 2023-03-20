@@ -1,4 +1,4 @@
-/*
+ /*
     1. Create a for loop that runs from 1-100 
     2. Every 10 loops, print out: Checkpoint! and the loop number
     3. On loop 50 print out ONLY: Half way there!
@@ -18,3 +18,22 @@
     You made it!
     All, done!
 */
+
+
+for (let i = 1; i <= 100; i++){
+
+    if (i === 50){
+        console.log("Half way there!");
+        continue;
+    }
+
+    if (i === 100){
+        console.log("You made it!");
+        continue;
+    }
+    if (i % 10 === 0){
+        console.log(`Checkpoint ${i}`);
+    }
+}
+
+console.log("All done!")

@@ -11,3 +11,18 @@
 
     When you're done, call the function once.
 */
+
+// declaring the function   
+const chill = () => {
+    console.log("Doing some chilling");
+
+    for (i = 1; i <= 10; i++) {
+        console.log(`Chill... ${i}`);
+    }
+
+    console.log("That was ice cold!");
+};
+
+// Function call
+
+chill();
