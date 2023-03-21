@@ -12,3 +12,20 @@
 
     *Print out the array after each of these steps ^
 */
+
+
+let myArray = ["Mercury", "Venus", "Earth", "Mars"]
+
+myArray.push("Jupiter");
+console.log(myArray);
+
+myArray.unshift("Sun");
+console.log(myArray);
+
+myArray.pop();
+myArray.pop();
+console.log(myArray);
+
+myArray.shift();
+myArray.shift();
+console.log(myArray);

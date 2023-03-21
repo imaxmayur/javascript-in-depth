@@ -5,3 +5,15 @@
     
     3. Print out both "practice" and the new mapped array
 */
+
+
+const practice = [25, 26, 27,28,29,30]
+
+const practiceSqr = practice.map ((number) => {
+    
+    return number ** 2;
+
+})
+
+console.log(practice);
+console.log(practiceSqr);

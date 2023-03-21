@@ -11,3 +11,16 @@
     HINT: Google for "random number js" to find a random
           number function built-in to Javascript to use
 */
+
+
+const bulls = [true, true, false, true, false, false]
+
+const newBulls = bulls.map((bull) => {
+
+    if (bull) {             // bull === true
+        return Math.random();
+    } 
+    return 0;
+ })
+ 
+ console.log(newBulls);

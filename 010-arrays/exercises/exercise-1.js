@@ -12,3 +12,14 @@
     BONUS: Try to see if you can make it so that all you need to change
     is the "multiple" variable and the program still works correctly.
 */
+
+
+const multiple = 5;
+
+const array = [10, 11, 12, 13, 14, 15];
+
+for (let i=0; i < array.length; i++){
+   const result = multiple * array[i];
+
+    console.log(`${array[i]} x ${multiple} = ${result}`);
+}
