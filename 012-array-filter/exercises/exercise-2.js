@@ -19,6 +19,5 @@ const lowPrices = prices.filter ((price) => {
     return false;
 
 })
-
 console.log(prices);
 console.log(lowPrices);
