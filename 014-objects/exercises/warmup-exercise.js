@@ -13,3 +13,20 @@
     
     5. Print out "mexico" to the terminal again
 */
+
+
+const mexico = {
+    id : 24,
+    name : "Mexico",
+    capital : "Mexico City",
+    neighbors : ["USA", "Gautemala", "Belize"],
+}
+
+console.log(mexico);
+
+mexico.id = 25;
+console.log(mexico);
+
+mexico.neighbors.push("Honduras");
+console.log(mexico);
+

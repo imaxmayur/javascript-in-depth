@@ -14,3 +14,7 @@
 
     BONUS: How might the built-in "console" work?
 */
+
+const myConsole = {
+    log
+}
